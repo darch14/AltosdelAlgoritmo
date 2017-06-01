@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Altos del Algoritmo</string>
+    <string name="action_settings">Settings</string>
+    <string name="registro">REGISTRO</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="nomenclatura">Nomenclatura</string>
+    <string name="piso">Piso</string>
+    <string name="metros">Metros</string>
+    <string name="precio">Precio</string>
+    <string name="tiene_balcon">Tiene Balcon</string>
+    <string name="no">No</string>
+    <string name="si">Si</string>
+    <string name="tiene_sombra">Tiene Sombra</string>
+    <string name="borrar">Borrar</string>
+    <string name="agregar">Agregar</string>
+</resources>
