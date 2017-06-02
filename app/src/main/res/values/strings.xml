@@ -8,9 +8,46 @@
     <string name="metros">Metros</string>
     <string name="precio">Precio</string>
     <string name="tiene_balcon">Tiene Balcon</string>
+    <string name="no_tiene_balcon">No Tiene Balcon</string>
     <string name="no">No</string>
     <string name="si">Si</string>
     <string name="tiene_sombra">Tiene Sombra</string>
+    <string name="no_tiene_sombra">No Tiene Sombra</string>
     <string name="borrar">Borrar</string>
     <string name="agregar">Agregar</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string-array name="opciones_piso">
+        <item>@string/uno</item>
+        <item>@string/dos</item>
+        <item>@string/tres</item>
+        <item>@string/cuatro</item>
+        <item>@string/cinco</item>
+    </string-array>
+    <string name="nom_uno">01</string>
+    <string name="nom_dos">02</string>
+    <string name="nom_tres">03</string>
+    <string-array name="opciones_nomenclatura">
+        <item>@string/nom_uno</item>
+        <item>@string/nom_dos</item>
+        <item>@string/nom_tres</item>
+    </string-array>
+    <string-array name="titulos">
+        <item>@string/nomenclatura</item>
+        <item>@string/piso</item>
+        <item>@string/precio</item>
+    </string-array>
+
+    <!--  ERRORES  -->
+    <string name="error_existente">La nomenclatura ya existe en ese piso</string>
+    <string name="error_metros">Digite los metros</string>
+    <string name="error_precio">Digite el precio</string>
+    <string name="error_piso">Solo se pueden 3 apartamentos por piso</string>
+
+    <!--  MENSAJES  -->
+    <string name="mensaje_exitoso_guardar">Se a guardado correctamente</string>
+
 </resources>

@@ -1,5 +1,8 @@
 package com.example.david.altosdelalgoritmo;
 
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+
 /**
  * Created by david on 31/05/2017.
  */
@@ -71,5 +74,28 @@ public class Apartamento {
 
     public void setSombra(String sombra) {
         this.sombra = sombra;
+    }
+
+
+    public void guardar(Context contexto){
+        //declarar las variables
+        String sql;
+        SQLiteDatabase db;
+
+        //Abrir ña conexión de base de datos en modo escritura
+        ApartamentoSQLiteOpenHelper aux=new ApartamentoSQLiteOpenHelper(contexto,"DBApartamentos",null,1);
+        db=aux.getWritableDatabase();
+
+        sql="INSERT INTO Apartamentos values('"
+                +this.getFoto()+"','"
+                +this.getNomenclatura()+"','"
+                +this.getPiso()+"','"
+                +this.getMetros()+"','"
+                +this.getPrecio()+"','"
+                +this.getBalcon()+"','"
+                +this.getSombra()+"')";
+        db.execSQL(sql);
+
+        db.close();
     }
 }
