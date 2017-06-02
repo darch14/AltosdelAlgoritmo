@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Altos del Algoritmo</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings" translatable="false">Settings</string>
     <string name="registro">REGISTRO</string>
-    <string name="buscar">BUSCAR</string>
     <string name="nomenclatura">Nomenclatura</string>
     <string name="tiene_balcon">Tiene Balcon</string>
     <string name="no_tiene_balcon">No Tiene Balcon</string>
@@ -45,7 +44,7 @@
     <string name="error_piso">Solo se pueden 3 apartamentos por piso</string>
 
     <!--  MENSAJES  -->
-    <string name="mensaje_exitoso_guardar">Se a guardado correctamente</string>
+    <string name="mensaje_exitoso_guardar">Se ha guardado correctamente</string>
 
     <!--  INTERFAZ DETALLES  -->
     <string name="apartamento">Apartamento</string>

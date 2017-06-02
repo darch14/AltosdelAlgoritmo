@@ -2,6 +2,7 @@ package com.example.david.altosdelalgoritmo;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +20,7 @@ public class DetalleApartamento extends AppCompatActivity {
     private ImageView foto;
     private TextView cajanomenclatura,cajaprecio,cajametros,cajapiso,cajabalcon,cajasombra;
     private Resources res;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +47,9 @@ public class DetalleApartamento extends AppCompatActivity {
         foto=(ImageView)findViewById(R.id.fotoApartamento);
 
         foto.setImageResource(Integer.parseInt(fot));
+
+        toolbar=(Toolbar)findViewById(R.id.toolbar2);
+        toolbar.setTitleTextColor(Color.WHITE);
 
         cajanomenclatura=(TextView)findViewById(R.id.txtDetalleNomenclatura);
         cajapiso=(TextView)findViewById(R.id.txtDetallePiso);

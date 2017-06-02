@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Altos del Algoritmo</string>
+    <string name="agregar">Add</string>
+    <string name="apartamento">Apartment</string>
+    <string name="borrar">Delete</string>
+    <string name="cinco">5</string>
+    <string name="cuatro">4</string>
+    <string name="dos">2</string>
+    <string name="error_existente">Nomenclature already exists on that floor</string>
+    <string name="error_metros">Enter meters</string>
+    <string name="error_piso">Only 3 apartments per floor</string>
+    <string name="error_precio">Enter price</string>
+    <string name="mensaje_exitoso_guardar">Saved successfully</string>
+    <string name="metros">Meters</string>
+    <string name="no">Do not</string>
+    <string name="no_tiene_balcon">No balcony</string>
+    <string name="no_tiene_sombra">Has no shadow</string>
+    <string name="nom_dos">02</string>
+    <string name="nom_tres">03</string>
+    <string name="nom_uno">01</string>
+    <string name="nomenclatura">Nomenclature</string>
+    <string name="piso">Floor</string>
+    <string name="precio">Price</string>
+    <string name="registro">REGISTRY</string>
+    <string name="si">Yes</string>
+    <string name="tiene_balcon">Has balcony</string>
+    <string name="tiene_sombra">Has shade</string>
+    <string name="tres">3</string>
+    <string name="uno">1</string>
+</resources>

@@ -164,4 +164,8 @@ public class RegistrosEdificios extends AppCompatActivity {
         cajaMetros.requestFocus();
         guardado=false;
     }
+
+    public void borrar(View v){
+        limpiar();
+    }
 }
