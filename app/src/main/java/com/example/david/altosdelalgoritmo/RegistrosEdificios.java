@@ -97,12 +97,10 @@ public class RegistrosEdificios extends AppCompatActivity {
         ArrayList<Apartamento> a=DatosApartamentos.traerApartamentos(getApplicationContext());
         if (a.size()!=0){
             for (int i=0;i<a.size();i++){
-                if (a.get(i).getPiso().equalsIgnoreCase(comboPiso.getSelectedItem().toString())){
-                    if (a.get(i).getNomenclatura().equalsIgnoreCase(comboNomenclatura.getSelectedItem().toString())){
-                        Toast.makeText(getApplicationContext(),res.getString(R.string.error_existente),
-                                Toast.LENGTH_SHORT).show();
-                        return false;
-                    }
+                if (a.get(i).getNomenclatura().equalsIgnoreCase(comboPiso.getSelectedItem().toString()+comboNomenclatura.getSelectedItem().toString())){
+                    Toast.makeText(getApplicationContext(),res.getString(R.string.error_existente),
+                            Toast.LENGTH_SHORT).show();
+                    return false;
                 }
             }
         }

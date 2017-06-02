@@ -58,8 +58,13 @@ public class Principal extends AppCompatActivity implements AdaptadorApartamento
     public void onApartamentoClick(Apartamento a) {
         i=new Intent(Principal.this, DetalleApartamento.class);
         Bundle b=new Bundle();
-        b.putString("nom",a.getNomenclatura());
         b.putString("foto",a.getFoto());
+        b.putString("nom",a.getNomenclatura());
+        b.putString("piso",a.getPiso());
+        b.putString("metros",a.getMetros());
+        b.putString("precio",a.getPrecio());
+        b.putString("balcon",a.getBalcon());
+        b.putString("sombra",a.getSombra());
         i.putExtra("datos",b);
         startActivity(i);
     }

@@ -4,9 +4,6 @@
     <string name="registro">REGISTRO</string>
     <string name="buscar">BUSCAR</string>
     <string name="nomenclatura">Nomenclatura</string>
-    <string name="piso">Piso</string>
-    <string name="metros">Metros</string>
-    <string name="precio">Precio</string>
     <string name="tiene_balcon">Tiene Balcon</string>
     <string name="no_tiene_balcon">No Tiene Balcon</string>
     <string name="no">No</string>
@@ -50,4 +47,9 @@
     <!--  MENSAJES  -->
     <string name="mensaje_exitoso_guardar">Se a guardado correctamente</string>
 
+    <!--  INTERFAZ DETALLES  -->
+    <string name="apartamento">Apartamento</string>
+    <string name="piso">Piso</string>
+    <string name="metros">Metros</string>
+    <string name="precio">Precio</string>
 </resources>
